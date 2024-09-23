@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-gradient': 'linear-gradient(62deg, rgba(255,216,40,1) 0%, rgba(158,0,255,1) 100%)',
+        'custom-gradient': 'linear-gradient(90deg, rgb(255, 151, 30) 0%, rgba(163, 48, 203,1) 100%)',
         'card-hero': '#222222',
       },
       keyframes: {

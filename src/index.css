@@ -28,7 +28,7 @@ body{
 }
 
 .custom-gradient{
-  background: (62deg, rgb(255, 165, 40) 0%, rgba(158,0,255,1) 100%);
+  background: linear-gradient(90deg, rgb(255, 151, 30) 0%, rgba(163, 48, 203,1) 100%);
 }
 
 
