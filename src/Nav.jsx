@@ -1,0 +1,32 @@
+import Logo from './assets/images/logo.png'
+import './index.css'
+
+function Nav(){
+    return(
+        <>
+        <div className="navbar container mx-auto py-5 px-20 flex items-center justify-between" id='home'>
+            <div className="brand ">
+                <a href="" className='font-semibold text-3xl inline-flex items-center gap-3'>
+                <img src={Logo} alt="" srcset="" className='w-10' />
+                Genius AI
+                </a>
+            </div>
+            <div className="nav-item">
+                <ul className='font-medium text-lg inline-flex items-center gap-14'>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div className="action inline-flex items-center gap-10 text-lg font-medium">
+                <a href="#sign-in" className=''>Sign In</a>
+                <a href="#sign-up" className='border-2 border-purple-600 px-5 rounded-full py-2'>Sign Up</a>
+            </div>
+        </div>
+        </>
+    )
+}
+
+export default Nav
