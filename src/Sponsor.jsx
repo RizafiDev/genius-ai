@@ -1,6 +1,6 @@
 import Gpt from "./assets/images/gpt.png";
-import Nvidia from "./assets/images/Nvidia.png";
-import Google from "./assets/images/Google.png";
+import Nvidia from "./assets/images/nvidia.png";
+import Google from "./assets/images/google.png";
 import { useEffect } from "react";
 
 function Sponsor() {
