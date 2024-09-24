@@ -30,7 +30,6 @@ function Sponsor() {
           className="font-medium text-3xl "
           data-aos="fade-down"
           data-aos-duration="1000"
-          data-aos-delay=""
         >
           Powered By :
         </h1>
@@ -39,7 +38,6 @@ function Sponsor() {
           id="box"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="1000"
         >
           <div
             id="brand-container"

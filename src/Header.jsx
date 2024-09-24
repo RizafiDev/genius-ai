@@ -4,35 +4,35 @@ import HeaderImage from "./assets/images/header.png";
 function Header() {
   return (
     <>
-      <header className="container mx-auto flex flex-col items-center justify-center gap-12 relative">
+      <header className="container mx-auto flex flex-col items-center justify-center gap-8 sm:gap-12 relative max-h-screen sm:min-h-screen">
         <div
-          className="top flex flex-col items-center gap-8"
+          className="top flex flex-col items-center gap-7 sm:gap-8"
           data-aos="fade-up"
           data-aos-duration="2000"
-          data-aos-delay="2000"
+          data-aos-delay="500"
           data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false"
         >
           <div className="big items-center justify-center mt-6">
-            <h1 className="quantum text-7xl text-center">
+            <h1 className="quantum text-xl sm:text-7xl text-center">
               BOOST YOUR PRODUCTIVITY
               <br />
               AI-GENERATED ASSETS
             </h1>
-            <img src={Line} alt="" className="w-[600px] ml-24 mt-2" data-aos="fade-right"
+            <img src={Line} alt="" className="sm:w-[600px] w-40 sm:ml-24 sm:mt-2 ml-8" data-aos="fade-right"
           data-aos-duration="1000"
-          data-aos-delay="3000"
+          data-aos-delay="2000"
           data-aos-easing="ease-in-out"
     data-aos-mirror="true"
     data-aos-once="false" />
           </div>
-          <div className="sub text-lg font-medium text-center justify-center gap-3">
-            <p>Generate your work assets using AI Generated in a second</p>
+          <div className="sub text-xs sm:text-lg font-normal sm:font-medium text-center justify-center gap-3">
+            <p>Generate your work assets using <br className="inline-flex sm:hidden" /> AI Generated in a second</p>
           </div>
           <a
             href="#start"
-            className="items-center bg-custom-gradient py-2 px-5 rounded-full text-sm -my-4"
+            className="items-center bg-custom-gradient py-2 px-5 rounded-full text-xs sm:text-sm -my-4"
           >
             START GENERATING
           </a>
@@ -41,13 +41,10 @@ function Header() {
           className="avatar relative"
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="1000"
           data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
         >
-          <img src={HeaderImage} alt="" className="w-[900px] " />
-          <div className="px-8 py-6 bg-[#222222] absolute rounded-2xl font-medium text-sm space-y-1 top-28 -left-36">
+          <img src={HeaderImage} alt="" className="sm:w-[900px] w-80" />
+          <div className="sm:px-8 sm:py-6 px-6 py-4 bg-[#222222] absolute sm:rounded-2xl rounded-lg font-medium text-xs sm:text-sm space-y-1 sm:top-28 top-12 left-4 sm:-left-36">
             <p className="text-[#fafafa]">Command :</p>
             <p className="text-[#A7A7A7]">
               Female with orange and purple <br /> robot eyes
