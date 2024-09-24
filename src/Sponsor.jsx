@@ -25,9 +25,9 @@ function Sponsor() {
   }, []);
   return (
     <>
-      <div className="container mx-auto justify-center items-center flex flex-col py-16 gap-6">
+      <div className="container mx-auto  items-center flex flex-col py-6 sm:py-16 gap-6">
         <h1
-          className="font-medium text-3xl "
+          className="font-medium sm:text-3xl text-lg"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -41,11 +41,11 @@ function Sponsor() {
         >
           <div
             id="brand-container"
-            className="brand-item flex items-center animate-scroll space-x-48"
+            className="brand-item flex items-center animate-scroll space-x-12 justify-center sm:space-x-48"
           >
-            <img src={Gpt} alt="" className="h-11" />
-            <img src={Nvidia} alt="" className="h-11" />
-            <img src={Google} alt="" className="h-11" />
+            <img src={Gpt} alt="" className="sm:h-11 h-8" />
+            <img src={Nvidia} alt="" className="sm:h-11 h-6" />
+            <img src={Google} alt="" className="sm:h-11 h-6" />
           </div>
         </div>
       </div>

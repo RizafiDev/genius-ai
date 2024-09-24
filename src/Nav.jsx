@@ -1,12 +1,10 @@
 import Logo from "./assets/images/logo.png";
 import "./index.css";
 
-
 function Nav() {
-
   const hamburgerToggle = () => {
     const nav = document.getElementById("nav-link");
-    nav.classList.toggle("hidden")
+    nav.classList.toggle("hidden");
   };
 
   return (
@@ -17,8 +15,8 @@ function Nav() {
         data-aos="fade-down"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-once="false"
+        data-aos-mirror="true"
+        data-aos-once="false"
       >
         <div className="brand ">
           <a
@@ -29,8 +27,12 @@ function Nav() {
             Genius AI
           </a>
         </div>
-        <div className="hamburger sm:hidden"><button onClick={hamburgerToggle}><i class="ri-menu-3-line ri-lg"></i></button></div>
-        <div className="nav-item hidden sm:inline-block" >
+        <div className="hamburger sm:hidden">
+          <button onClick={hamburgerToggle}>
+            <i class="ri-menu-3-line ri-lg"></i>
+          </button>
+        </div>
+        <div className="nav-item hidden sm:inline-block">
           <ul className="font-medium text-lg inline-flex items-center gap-14 h-5">
             <li>
               <a href="#home" className="hover-underline-animation">
@@ -57,10 +59,12 @@ function Nav() {
                 Contact
               </a>
             </li>
-           
           </ul>
         </div>
-        <div className="nav-item hidden absolute top-20 left-0 w-full" id="nav-link">
+        <div
+          className="nav-item hidden absolute top-20 left-0 w-full"
+          id="nav-link"
+        >
           <ul className="font-normal text-base inline-flex flex-col items-center gap-4 py-5 w-full h-full bg-[#070013] z-50">
             <li>
               <a href="#home" className="hover-underline-animation">
@@ -89,10 +93,10 @@ function Nav() {
             </li>
             <li className="flex items-center w-full justify-around">
               <a href="#contact" className="hover-underline-animation">
-              <i class="ri-login-circle-line mr-2"></i>Sign In
+                <i class="ri-login-circle-line mr-2"></i>Sign In
               </a>
               <a href="#contact" className="hover-underline-animation">
-              <i class="ri-user-add-line mr-2"></i>Sign Up
+                <i class="ri-user-add-line mr-2"></i>Sign Up
               </a>
             </li>
           </ul>
