@@ -1,5 +1,4 @@
 import { StrictMode } from "react";
-import { HashRouter as Router } from 'react-router-dom';
 import { createRoot } from "react-dom/client";
 import Nav from "./Nav.jsx";
 import Header from "./Header.jsx";
@@ -17,7 +16,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 
 createRoot(document.getElementById("root")).render(
-  <Router>
+  <StrictMode>
     <Nav />
     <Header />
     <Sponsor />
@@ -26,5 +25,5 @@ createRoot(document.getElementById("root")).render(
     <Pricing />
     <Tagline />
     <Footer />
-  </Router>
+  </StrictMode>
 );
