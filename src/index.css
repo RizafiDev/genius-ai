@@ -53,3 +53,8 @@ body{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+#box:hover + #box {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}

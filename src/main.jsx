@@ -10,6 +10,10 @@ import Tagline from './Tagline.jsx'
 import Footer from './Footer.jsx'
 import './index.css'
 import 'remixicon/fonts/remixicon.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
