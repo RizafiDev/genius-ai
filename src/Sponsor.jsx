@@ -4,6 +4,7 @@ import Google from "./assets/images/google.png";
 import { useEffect } from "react";
 
 function Sponsor() {
+  
   useEffect(() => {
     const brandContainer = document.getElementById("brand-container");
     const logos = brandContainer.innerHTML; // Simpan isi dari brand-item
@@ -23,9 +24,11 @@ function Sponsor() {
     // Panggil fungsi saat komponen pertama kali dimuat
     duplicateLogos();
   }, []);
+
+  
   return (
     <>
-      <div className="container mx-auto  items-center flex flex-col py-6 sm:py-16 gap-6">
+      <div className="container mx-auto items-center flex flex-col py-6 sm:py-16 gap-6 sm:h-fit">
         <h1
           className="font-medium sm:text-3xl text-lg"
           data-aos="fade-down"

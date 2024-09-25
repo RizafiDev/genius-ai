@@ -43,7 +43,7 @@ function Pricing() {
             <div className="tittle space-y-3">
               <h1 className="quantum text-6xl">veteran</h1>
               <p className="">
-                Advance AI Performance, Recommend <br /> for personal used.{" "}
+                Advance AI Performance, <br /> Recommend for personal used.
               </p>
             </div>
             <h1 className="font-normal text-4xl">
@@ -80,12 +80,12 @@ function Pricing() {
             <div className="tittle space-y-3">
               <h1 className="quantum text-6xl">legends</h1>
               <p className="">
-                Advance AI Performance, Recommend{" "}
-                <br className="sm:inline-flex hidden" /> for personal used.{" "}
+                Best performance AI Engine{" "}
+                <br className="sm:inline-flex hidden" /> for bussines used.{" "}
               </p>
             </div>
             <h1 className="font-normal text-4xl">
-              $<span className="font-semibold text-6xl">4.99</span>
+              $<span className="font-semibold text-6xl">14.99</span>
             </h1>
             <div className="benefit">
               <ul className="inline-flex flex-col items-start text-sm gap-4">

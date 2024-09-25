@@ -4,7 +4,7 @@ import HeaderImage from "./assets/images/header.png";
 function Header() {
   return (
     <>
-      <header className="container mx-auto flex flex-col items-center gap-8 sm:gap-12 relative">
+      <header className="container mx-auto flex flex-col items-center gap-8 sm:gap-12 relative sm:h-fit">
         <div
           className="top flex flex-col items-center gap-7 sm:gap-8"
           data-aos="fade-up"

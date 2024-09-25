@@ -6,7 +6,7 @@ function Tagline() {
     <>
       <div className="container mx-auto flex flex-col items-center justify-center py-11 relative my-16">
         <div className="content flex flex-col sm:items-center justify-center gap-4 pb-6 px-9">
-          <img src={Dragon} alt="" className="w-44" />
+          <img src={Dragon} alt="" className="w-44 sm:hidden" />
           <div className="header text-5xl sm:text-7xl flex flex-col items-start sm:items-center justify-center -space-y-3 sm:-space-y-6">
             <h1 className="quantum">boost your</h1>
             <h1 className="quantum">creative</h1>

@@ -23,7 +23,7 @@ function Footer() {
             ©2024 RizafiDev || All Right Reserved
           </p>
         </div>
-        <div className="right flex flex-col justify-between items-end">
+        <div className="right flex flex-col justify-between items-center">
           <div className="link sm:flex grid grid-cols-2 items-start gap-10 jus">
             <ul className="inline-flex items-start flex-col gap-3">
               <li className="font-semibold">
