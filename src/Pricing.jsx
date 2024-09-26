@@ -16,7 +16,7 @@ function Pricing() {
         >
           Boost Your AI
         </h1>
-        <div className="card-container inline-flex sm:flex-row flex-col items-center justify-center gap-8 sm:gap-16 px-20 w-full h-fit">
+        <div className="card-container inline-flex sm:flex-row flex-col items-center justify-center gap-8 sm:gap-16 px-20 ">
           <div
             className="card-1 flex flex-col items-start gap-10 bg-[#424242] pt-4 pb-9 pl-9 sm:pr-32  rounded-lg sm:w-auto w-full"
             data-aos="fade-down"
