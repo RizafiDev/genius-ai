@@ -7,7 +7,15 @@ function Services() {
         className="container mx-auto sm:flex-row flex-col flex items-center justify-between px-10 sm:px-60 py-20  pb-28 sm:py-28"
         id="service"
       >
-        <div className="left relative ">
+        <div
+          className="left relative "
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <img src={ServicesImg} alt="" className="w-96" />
           <div className="px-5 py-4 bg-[#222222] absolute rounded-lg items-center justify-center font-medium text-sm space-y-1 sm:top-72 top-56 -left-4 sm:-left-14">
             <p className="text-[#fafafa] text-center items-center inline-flex gap-1">
@@ -16,7 +24,15 @@ function Services() {
             </p>
           </div>
         </div>
-        <div className="right inline-flex flex-col gap-5">
+        <div
+          className="right inline-flex flex-col gap-5"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <div className="header flex flex-col items-start -space-y-4 sm:-space-y-6 text-6xl sm:text-8xl">
             <h1 className="quantum">generate</h1>
             <h1 className="quantum">your ai</h1>

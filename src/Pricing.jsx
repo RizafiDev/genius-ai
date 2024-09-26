@@ -5,9 +5,27 @@ function Pricing() {
         className="container mx-auto flex flex-col items-center justify-center gap-10"
         id="pricing"
       >
-        <h1 className="font-medium text-3xl ">Boost Your AI</h1>
-        <div className="card-container inline-flex sm:flex-row flex-col items-center justify-center gap-8 sm:gap-16 px-20">
-          <div className="card-1 flex flex-col items-start gap-10 bg-[#424242] pt-4 pb-9 pl-9 sm:pr-32  rounded-lg sm:w-auto w-full">
+        <h1
+          className="font-medium text-3xl "
+          data-aos="zoom-in"
+          data-aos-duration="500"
+          data-aos-delay="100"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          Boost Your AI
+        </h1>
+        <div className="card-container inline-flex sm:flex-row flex-col items-center justify-center gap-8 sm:gap-16 px-20 w-full h-fit">
+          <div
+            className="card-1 flex flex-col items-start gap-10 bg-[#424242] pt-4 pb-9 pl-9 sm:pr-32  rounded-lg sm:w-auto w-full"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <div className="tittle space-y-3">
               <h1 className="quantum text-6xl">newbie</h1>
               <p className="">Free service for your task.</p>
@@ -39,7 +57,15 @@ function Pricing() {
             </a>
           </div>
           {/* newww */}
-          <div className="card-1 flex flex-col items-start gap-10 bg-[#0d0d0d] pt-4 pb-9 pl-9 sm:pr-32 pr-20 rounded-lg sm:w-auto w-full">
+          <div
+            className="card-1 flex flex-col items-start gap-10 bg-[#0d0d0d] pt-4 pb-9 pl-9 sm:pr-32 pr-20 rounded-lg sm:w-auto w-full"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <div className="tittle space-y-3">
               <h1 className="quantum text-6xl">veteran</h1>
               <p className="">
@@ -76,7 +102,15 @@ function Pricing() {
             </a>
           </div>
           {/* newww */}
-          <div className="card-1 flex flex-col items-start gap-10 bg-custom-gradient pt-4 pb-9 pl-9 sm:pr-32 pr-14 rounded-lg sm:w-auto w-full">
+          <div
+            className="card-1 flex flex-col items-start gap-10 bg-custom-gradient pt-4 pb-9 pl-9 sm:pr-32 pr-14 rounded-lg sm:w-auto w-full"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <div className="tittle space-y-3">
               <h1 className="quantum text-6xl">legends</h1>
               <p className="">
